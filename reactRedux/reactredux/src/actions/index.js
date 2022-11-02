@@ -17,3 +17,17 @@ export const decNumber = () => {
         type: "DECREMENT"
     }
 };
+
+
+export const multNumber = (num) => {
+    return {
+        type: "MULT",
+        payload: num
+    }
+};
+
+export const divNumber = () => {
+    return {
+        type: "DIVIDE"
+    }
+};
